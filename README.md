@@ -1,5 +1,6 @@
 # 🌟 Vinay Codes: Sem-3 Assignments 🌟
 
+<img src="https://ibb.co/PrmZKmP">
 Welcome to the official repository for all my Semester 3 assignments! 🎓✨
 
 I’m **Vinay** and I’m excited to share my work with you! 🚀💻 Here, you’ll find all the cool stuff I’ve been working on for my semester, categorized by subjects. Let’s dive into the details! 🌊🔍
