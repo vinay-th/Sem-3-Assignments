@@ -36,7 +36,7 @@ I’m Vinay, a coding enthusiast with a passion for exploring new technologies a
 Feel free to reach out or connect with me if you have any questions or just want to chat about tech! 🤝💬
 
 - **GitHub**: [vinay-th](https://github.com/vinay-th) 🌟
-- **LinkedIn**: [Vinay’s LinkedIn](https://www.linkedin.com/in/vinay) 📈🌐
+- **LinkedIn**: [Vinay’s LinkedIn](https://www.linkedin.com/in/vinay-thakor) 📈🌐
 
 ## 🔗 Links
 
