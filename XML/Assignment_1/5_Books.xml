@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books [
+    <!ELEMENT Books (Book)>
+    <!ELEMENT Book (Author, Year, Publisher)>
+    <!ATTLIST Book title CDATA #REQUIRED>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT Year (#PCDATA)>
+    <!ELEMENT Publisher (#PCDATA)>
+]>
+<Books>
+    <Book title="hello">
+        <Author>
+            SV
+        </Author>
+        <Year>
+            2022
+        </Year>
+        <Publisher>
+            VV Publication
+        </Publisher>
+    </Book>
+</Books>

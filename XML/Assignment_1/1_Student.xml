@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+    <Name>Vansh</Name>
+    <PersonalInfo>
+        <Address>
+            <Street>123 Main St</Street>
+            <City>Anytown</City>
+            <State>CA</State>
+            <Zip>12345</Zip>
+            <Country>India</Country>
+        </Address>
+        <Birthdate>2000-01-01</Birthdate>
+        <Gender>Male</Gender>
+        <MobileNo>+1-555-123-4567</MobileNo>
+    </PersonalInfo>
+    <Result>
+        <Total>450</Total>
+        <Percentage>90</Percentage>
+        <Grade>A</Grade>
+    </Result>
+</Student>

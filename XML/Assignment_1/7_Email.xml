@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Email>
+    <from>john.doe@example.com</from>
+    <to>jane.smith@example.com</to>
+    <content>
+        <person>John Doe</person>
+        <exercises>
+            <exercise>
+                <topic>Linear Algebra</topic>
+                <description>Solving systems of linear equations</description>
+            </exercise>
+            <exercise>
+                <topic>Statistics</topic>
+                <description>Basic probability and statistics concepts</description>
+            </exercise>
+        </exercises>
+        <course>Mathematics</course>
+    </content>
+</Email>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OrderDetails>
+    <OrderNo>
+        10
+    </OrderNo>
+    <OrderDate>
+        11-11-2000
+    </OrderDate>
+    <OrderAmount>
+        80
+    </OrderAmount>
+    <ItemPrice>
+        100000
+    </ItemPrice>
+    <ItemName>
+        XYZ
+    </ItemName>
+    <Quantity>
+        100
+    </Quantity>
+</OrderDetails>

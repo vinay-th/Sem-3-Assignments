@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employee [
+    <!ELEMENT Employee (Emp_no, name, Department, ManagerName, ProjectAssign, Designation)>
+    <!ELEMENT Emp_no (#PCDATA)>
+    <!ELEMENT name (fname, lname)>
+    <!ELEMENT fname (#PCDATA)>
+    <!ELEMENT lname (#PCDATA)>
+    <!ELEMENT Department (#PCDATA)>
+    <!ELEMENT ManagerName (#PCDATA)>
+    <!ELEMENT ProjectAssign (Proj_1, Proj_2, Proj_3)>
+    <!ELEMENT Proj_1 (#PCDATA)>
+    <!ELEMENT Proj_2 (#PCDATA)>
+    <!ELEMENT Proj_3 (#PCDATA)>
+    <!ELEMENT Designation (#PCDATA)>
+]>
+<Employee>
+    <Emp_no>789012</Emp_no>
+    <name>
+        <fname>Arun</fname>
+        <lname>Sharma</lname>
+    </name>
+    <Department>IT</Department>
+    <ManagerName>Sneha Patel</ManagerName>
+    <ProjectAssign>
+        <Proj_1>Project Alpha</Proj_1>
+        <Proj_2>Project Beta</Proj_2>
+        <Proj_3>Project Gamma</Proj_3>
+    </ProjectAssign>
+    <Designation>Senior Developer</Designation>
+</Employee>

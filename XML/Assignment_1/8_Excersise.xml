@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+    <Roll_no>123456</Roll_no>
+    <Name>
+        <fname>John</fname>
+        <lname>Doe</lname>
+    </Name>
+    <Marks>85</Marks>
+    <Rank>1</Rank>
+</Student>

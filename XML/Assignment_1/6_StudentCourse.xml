@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Students [
+    <!ELEMENT Students (Student+)>
+    <!ELEMENT Student (Name, ID, Plan)>
+    <!ELEMENT Name (FirstName, LastName)>
+    <!ELEMENT FirstName (#PCDATA)>
+    <!ELEMENT LastName (#PCDATA)>
+    <!ELEMENT ID (#PCDATA)>
+    <!ELEMENT Plan (Courses)>
+    <!ELEMENT Courses (Course)>
+    <!ATTLIST Courses Year CDATA #REQUIRED>
+    <!ELEMENT Course (name, ShortName, Record)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT ShortName (#PCDATA)>
+    <!ELEMENT Record (#PCDATA)>
+]>
+<Students>
+    <Student>
+        <Name>
+            <FirstName>Vansh</FirstName>
+            <LastName>Vora</LastName>
+        </Name>
+        <ID>101</ID>
+        <Plan>
+            <Courses Year="2023">
+                <Course>
+                    <name>BSc IT</name>
+                    <ShortName>IT</ShortName>
+                    <Record>123</Record>
+                </Course>
+            </Courses>
+        </Plan>
+    </Student>
+    <Student>
+        <Name>
+            <FirstName>Sarthak</FirstName>
+            <LastName>Vyas</LastName>
+        </Name>
+        <ID>102</ID>
+        <Plan>
+            <Courses Year="2023">
+                <Course>
+                    <name>BSc IT</name>
+                    <ShortName>IT</ShortName>
+                    <Record>321</Record>
+                </Course>
+            </Courses>
+        </Plan>
+    </Student>
+</Students>

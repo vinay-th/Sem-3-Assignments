@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Email>
+    <Message from="john.doe@example.com" 
+             to="jane.smith@example.com" 
+             subject="Meeting Reminder" 
+             date="2024-07-20">
+        Dear Jane,
+
+        This is a reminder for our meeting scheduled on July 25th at 10:00 AM.
+
+        Best regards,
+        John
+    </Message>
+</Email>

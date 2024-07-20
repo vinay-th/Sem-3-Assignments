@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Letter[
+	<!ELEMENT Letter (Contact, Salutation)>
+	<!ELEMENT Contact (name , address , city ,pin ,state , flag)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT city (#PCDATA)>
+	<!ELEMENT pin (#PCDATA)>
+	<!ELEMENT state (#PCDATA)>
+	<!ELEMENT flag (#PCDATA)>
+	<!ATTLIST flag gender CDATA #REQUIRED>
+	<!ATTLIST Contact type CDATA #REQUIRED>
+	<!ELEMENT Salutation (paragraph , closing , signature )>
+	<!ELEMENT paragraph (#PCDATA)>
+	<!ELEMENT closing (#PCDATA)>
+	<!ELEMENT signature (#PCDATA)>
+]>
+<Letter>
+	<Contact type="manager">
+		<name>Vansh</name>
+		<address>GLS</address>
+		<city>Ahmedabad</city>
+		<pin>382222</pin>
+		<state>Gujarat</state>
+		<flag gender="male"></flag>
+	</Contact>
+	<Salutation>
+		<paragraph>HVGHCGHCG GN </paragraph>
+		<closing>Thanks</closing>
+		<signature>Vanshuu</signature>
+	</Salutation>
+</Letter>
