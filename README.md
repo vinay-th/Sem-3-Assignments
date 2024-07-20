@@ -1,7 +1,15 @@
 # 🌟 Vinay Codes: Sem-3 Assignments 🌟
 <div align="center">
-  <img src="https://i.ibb.co/hg7Rb74/5.png" width="400" />
+  <picture>
+    <!-- Light mode image -->
+    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/bWk7RPn/4.png">
+    <!-- Dark mode image -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/hg7Rb74/5.png">
+    <!-- Fallback image -->
+    <img src="https://i.ibb.co/bWk7RPn/4.png" width="400" alt="Vinay Codes">
+  </picture>
 </div>
+
 Welcome to the official repository for all my Semester 3 assignments! 🎓✨
 
 I’m **Vinay** and I’m excited to share my work with you! 🚀💻 Here, you’ll find all the cool stuff I’ve been working on for my semester, categorized by subjects. Let’s dive into the details! 🌊🔍
