@@ -1,17 +1,15 @@
-echo "Enter the filename: "
-read fileName
-touch fileName
+#!/bin/sh
+echo "To read a file "
+echo "Enter the name of the file: "
+read file
+cat $file
 
-echo "---------------------File edit------------------------"
-cat >$fileName
-echo "Done successfuly"
-echo "\n\n\n---------------------File content------------------------"
-cat $fileName
+# Version of unix
+echo "The version of unix is: $(uname -a)"
 
-echo "\n\nThe version of UNIX"
-lsb_release -a
+# to get help about cat command
+echo "help about cat command:"
+man cat
 
-echo "\n\nThe help for cat command\n\n"
-cat --help	
-
-echo "this is a \nthree \n–lineText message"
+# 3 line print
+echo "This is a \nthree line \ntext message"
