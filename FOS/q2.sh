@@ -1,3 +1,4 @@
+#!/bin/sh
 # To display the username
 echo "The username of user is: $(whoami)"
 
