@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE StudentInfo SYSTEM "dtd/10_Student.dtd">
+<StudentInfo>
+    <Student course="c1">
+        <Name></Name>
+        <Contact></Contact>
+    </Student>
+    <Course cID="c1">
+        <cName>Course1&courseYear;</cName>
+        <Subject name="FOS"></Subject>
+    </Course>
+</StudentInfo>

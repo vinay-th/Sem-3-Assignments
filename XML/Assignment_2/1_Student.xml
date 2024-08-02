@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Students SYSTEM "dtd/1_Student.dtd">
+<Students>
+    <Student>
+        <PersonalInfo>
+            <RollNo>101</RollNo>
+            <Name>Vansh</Name>
+            <Address>Ahmedabad</Address>
+            <Mobile>4845151554</Mobile>
+            <DOB>11-11-2005</DOB>
+            <Age>19</Age>
+            <Qualification>BA Pass</Qualification>
+        </PersonalInfo>
+    </Student>
+    <Student>
+        <PersonalInfo>
+            <RollNo>102</RollNo>
+            <Name>Sarthak</Name>
+            <Address>Surat</Address>
+            <Mobile>9876543210</Mobile>
+            <DOB>12-12-2004</DOB>
+            <Age>20</Age>
+            <Qualification>B.Tech</Qualification>
+        </PersonalInfo>
+    </Student>
+    <Student>
+        <PersonalInfo>
+            <RollNo>103</RollNo>
+            <Name>Dhruv</Name>
+            <Address>Vadodara</Address>
+            <Mobile>7894561230</Mobile>
+            <DOB>10-10-2003</DOB>
+            <Age>21</Age>
+            <Qualification>BCA</Qualification>
+        </PersonalInfo>
+    </Student>
+</Students>

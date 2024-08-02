@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Student SYSTEM "dtd/8_Student.dtd">
+<Student>
+    <Roll_no>12345</Roll_no>
+    <Name>Rahul Sharma</Name>
+    <Marks>
+        <web_technologies>85</web_technologies>
+        <XML>90</XML>
+        <J2EE>88</J2EE>
+        <NS>92</NS>
+    </Marks>
+    <Rank>1</Rank>
+</Student>

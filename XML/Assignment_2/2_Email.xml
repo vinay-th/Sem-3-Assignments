@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Email SYSTEM "dtd/2_Email.dtd">
+<Email>
+    <Message from="vansh" to="sarthak" subject="high">
+        Heyy hello little bird
+    </Message>
+</Email>

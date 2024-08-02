@@ -1,0 +1,12 @@
+<!ELEMENT Letter (Contact+, Salutation, Paragraph, Closing, Signature)>
+<!ELEMENT Contact (Name, Address, City, Pin, Flag)>
+<!ATTLIST Contact type CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Pin (#PCDATA)>
+<!ELEMENT Flag (#PCDATA)>
+<!ELEMENT Salutation (#PCDATA)>
+<!ELEMENT Paragraph (#PCDATA)>
+<!ELEMENT Closing (#PCDATA)>
+<!ELEMENT Signature (#PCDATA)>

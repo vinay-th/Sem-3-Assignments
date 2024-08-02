@@ -1,0 +1,10 @@
+<!ELEMENT Email (From, To, Content)+>
+<!ELEMENT From (#PCDATA)>
+<!ELEMENT To (#PCDATA)>
+<!ELEMENT Content (#PCDATA | Person | Exercises)*>
+<!ELEMENT Person (#PCDATA)>
+<!ELEMENT Exercises (Exercise, Course)>
+<!ELEMENT Course (#PCDATA)>
+<!ELEMENT Exercise (Topic, Description)>
+<!ELEMENT Topic (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Students SYSTEM "dtd/4_Studnets.dtd">
+<Students>
+    <Name>Ravi Kumar</Name>
+    <PersonalInfo>
+        <Address>123, MG Road, Mumbai</Address>
+        <Birthdate>2001-05-20</Birthdate>
+        <Gender><Male/></Gender>
+        <MobileNo>9876543210</MobileNo>
+        <Mail>ghghcctcc@vv.com</Mail>
+    </PersonalInfo>
+    <Result>
+        <Total>450</Total>
+        <Percentage>90</Percentage>
+        <Grade><First/></Grade>
+    </Result>
+</Students>

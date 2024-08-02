@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE Letter SYSTEM "dtd/9_Letter.dtd">
+<Letter>
+    <Contact type="Manager">
+        <Name>Vansh</Name>
+        <Address>XYZ</Address>
+        <City>Ahmedabad</City>
+        <Pin>777777</Pin>
+        <Flag>F1</Flag>
+    </Contact>
+    <Salutation>
+        Hello bro
+    </Salutation>
+    <Paragraph>
+        This is a letter to you
+    </Paragraph>
+    <Closing>
+        Thanks
+    </Closing>
+    <Signature>
+        Vansh
+    </Signature>
+</Letter>

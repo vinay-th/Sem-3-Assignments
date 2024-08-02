@@ -1,0 +1,11 @@
+<!ELEMENT StudentInfo (Student+,Course)>
+<!ELEMENT Student (Name, Contact)>
+<!ATTLIST Student course ID #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Contact (#PCDATA)>
+<!ELEMENT Course (cName, Subject)>
+<!ATTLIST Course cID IDREF #REQUIRED>
+<!ELEMENT cName (#PCDATA)>
+<!ELEMENT Subject (#PCDATA)>
+<!ATTLIST Subject name CDATA #REQUIRED>
+<!ENTITY courseYear "2023">

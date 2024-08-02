@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE Students SYSTEM "dtd/6_STudents.dtd">
+<Students>
+    <Student>
+        <Name>
+            <fName>Vanshu</fName>
+            <lName>Vora</lName>
+        </Name>
+        <ID>101</ID>
+        <Plan>
+            <Courses year="11-11-2011">
+                <Course>
+                    <name>Operating System</name>
+                    <Shortname>FOS</Shortname>
+                    <Record>
+                        <Grade>A+</Grade>
+                        <Date>24-10-2011</Date>
+                    </Record>
+                </Course>
+            </Courses>
+        </Plan>
+    </Student>
+    <Student>
+        <Name>
+            <fName>Sarthak</fName>
+            <lName>Patel</lName>
+        </Name>
+        <ID>102</ID>
+        <Plan>
+            <Courses year="12-12-2012">
+                <Course>
+                    <name>Data Structure</name>
+                    <Shortname>DS</Shortname>
+                    <Record>
+                        <Grade>A</Grade>
+                        <Date>24-10-2012</Date>
+                    </Record>
+                </Course>
+                <Course>
+                    <name>Algorithm</name>
+                    <Shortname>ALGO</Shortname>
+                    <Record>
+                        <Grade>A</Grade>
+                        <Date>24-10-2012</Date>
+                    </Record>
+                </Course>
+            </Courses>
+        </Plan>
+    </Student>
+</Students>

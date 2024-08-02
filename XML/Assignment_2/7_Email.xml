@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE Email SYSTEM "dtd/7_Email.dtd">
+<Email>
+    <From>vansh</From>
+    <To>sarthak</To>
+    <Content>
+        <Person>Hello</Person>
+        <Exercises>
+            <Exercise>
+                <Topic>Assignment</Topic>
+                <Description>Do the tasks by tomorrow</Description>
+            </Exercise>
+            <Course>XYZ</Course>
+        </Exercises>
+    </Content>
+    <From>vansh</From>
+    <To>sarthak</To>
+    <Content>
+        Hey no worries that will be finished by tomorrow
+    </Content>
+</Email>
