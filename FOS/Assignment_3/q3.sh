@@ -35,7 +35,7 @@ echo
 # c. Join emp and student files on city and display the result
 echo "Joining emp.txt and student.txt on city and displaying result:"
 # Sort both files by city (field 3 in emp.txt and field 3 in student.txt), then join
-join -t '|' -1 3 -2 3 <(sort -t '|' -k3 emp.txt) <(sort -t '|' -k3 student.txt)
+join -t '|' -1 3 -2 3 emp.txt student.txt
 echo
 
 # d. Sort marks from student.txt in reverse order
