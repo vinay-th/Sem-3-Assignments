@@ -5,4 +5,4 @@ echo "Foreground Processes:"
 ps -f | grep -v grep
 
 echo "Background Processes:"
-jobs *
+jobs
