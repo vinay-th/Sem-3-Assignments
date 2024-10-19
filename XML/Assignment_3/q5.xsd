@@ -1,0 +1,38 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema file:/C:/Program%20Files%20(x86)/Exchanger%20XML%20Editor%203.3/types/XML%20Schema/Validation/XMLSchema.xsd">
+	<xsd:element name="SalesPerson">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Name"/>
+				<xsd:element name="BuisnessInfo">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Company"></xsd:element>
+							<xsd:element name="Department">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:enumeration value="Sales"/>
+										<xsd:enumeration value="Financial"/>
+										<xsd:enumeration value="Operation"/>
+										<xsd:enumeration value="Database"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Manager"></xsd:element>
+							<xsd:element name="Phone"></xsd:element>
+							<xsd:element name="Email"></xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="PersonalInfo">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Phone"></xsd:element>
+							<xsd:element name="Address"></xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

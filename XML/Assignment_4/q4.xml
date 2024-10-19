@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Students>
+	<Student>
+		<Name>Vansh</Name>
+		<PersonalInfo>
+			<Address>Gattar</Address>
+			<Birthdate>10-11-2005</Birthdate>
+			<Gender>Unknown</Gender>
+			<MobileNo>9825982655</MobileNo>
+			<Email>vanshiu@gmail.com</Email>
+		</PersonalInfo>
+		<Result>A</Result>
+	</Student>
+	<Student>
+	    <Name>Aanya</Name>
+	    <PersonalInfo>
+	        <Address>Lucknow</Address>
+	        <Birthdate>15-06-2003</Birthdate>
+	        <Gender>Female</Gender>
+	        <MobileNo>9876543210</MobileNo>
+	        <Email>aanya@gmail.com</Email>
+	    </PersonalInfo>
+	    <Result>B</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Rohan</Name>
+	    <PersonalInfo>
+	        <Address>Mumbai</Address>
+	        <Birthdate>20-09-2004</Birthdate>
+	        <Gender>Male</Gender>
+	        <MobileNo>9123456789</MobileNo>
+	        <Email>rohan@example.com</Email>
+	    </PersonalInfo>
+	    <Result>C</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Priya</Name>
+	    <PersonalInfo>
+	        <Address>Bangalore</Address>
+	        <Birthdate>30-01-2002</Birthdate>
+	        <Gender>Female</Gender>
+	        <MobileNo>9988776655</MobileNo>
+	        <Email>priya@yahoo.com</Email>
+	    </PersonalInfo>
+	    <Result>A</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Aditya</Name>
+	    <PersonalInfo>
+	        <Address>Delhi</Address>
+	        <Birthdate>05-04-2001</Birthdate>
+	        <Gender>Male</Gender>
+	        <MobileNo>8877665544</MobileNo>
+	        <Email>aditya@gmail.com</Email>
+	    </PersonalInfo>
+	    <Result>A</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Aangi Shah</Name>
+	    <PersonalInfo>
+	        <Address>Pune</Address>
+	        <Birthdate>22-08-2005</Birthdate>
+	        <Gender>Female</Gender>
+	        <MobileNo>9966332200</MobileNo>
+	        <Email>neha123@gmail.com</Email>
+	    </PersonalInfo>
+	    <Result>C</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Ravi</Name>
+	    <PersonalInfo>
+	        <Address>Kolkata</Address>
+	        <Birthdate>11-12-2000</Birthdate>
+	        <Gender>Male</Gender>
+	        <MobileNo>9988776655</MobileNo>
+	        <Email>ravi@outlook.com</Email>
+	    </PersonalInfo>
+	    <Result>B</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Simran</Name>
+	    <PersonalInfo>
+	        <Address>Chennai</Address>
+	        <Birthdate>03-03-2004</Birthdate>
+	        <Gender>Female</Gender>
+	        <MobileNo>9123456780</MobileNo>
+	        <Email>simran@hotmail.com</Email>
+	    </PersonalInfo>
+	    <Result>A</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Karan</Name>
+	    <PersonalInfo>
+	        <Address>Ahmedabad</Address>
+	        <Birthdate>17-07-2002</Birthdate>
+	        <Gender>Male</Gender>
+	        <MobileNo>7894561230</MobileNo>
+	        <Email>karan@gmail.com</Email>
+	    </PersonalInfo>
+	    <Result>A</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Sneha</Name>
+	    <PersonalInfo>
+	        <Address>Jaipur</Address>
+	        <Birthdate>28-02-2006</Birthdate>
+	        <Gender>Female</Gender>
+	        <MobileNo>9867543210</MobileNo>
+	        <Email>sneha@example.com</Email>
+	    </PersonalInfo>
+	    <Result>F</Result>
+	</Student>
+	
+	<Student>
+	    <Name>Arjun</Name>
+	    <PersonalInfo>
+	        <Address>Hyderabad</Address>
+	        <Birthdate>25-10-2003</Birthdate>
+	        <Gender>Male</Gender>
+	        <MobileNo>9988776650</MobileNo>
+	        <Email>arjun@yahoo.com</Email>
+	    </PersonalInfo>
+	    <Result>A</Result>
+	</Student>
+							
+</Students>

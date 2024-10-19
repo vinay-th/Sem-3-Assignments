@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Lunch>
+	<Starter>
+		<Juice/>
+	</Starter>
+	<MainCourse>
+		<VegLunch/>
+	</MainCourse>
+	<Desert>
+		<IceCream/>
+	</Desert>
+</Lunch>

@@ -2,11 +2,11 @@
 <!DOCTYPE StudentInfo SYSTEM "dtd/10_Student.dtd">
 <StudentInfo>
     <Student course="c1">
-        <Name></Name>
-        <Contact></Contact>
+        <Name>Vansh</Name>
+        <Contact number="777777"></Contact>
     </Student>
     <Course cID="c1">
-        <cName>Course1&courseYear;</cName>
-        <Subject name="FOS"></Subject>
+        <cName>XML&courseYear;</cName>
     </Course>
+    <Subject name="OS"></Subject>
 </StudentInfo>

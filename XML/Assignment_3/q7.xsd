@@ -1,0 +1,34 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema file:/C:/Program%20Files%20(x86)/Exchanger%20XML%20Editor%203.3/types/XML%20Schema/Validation/XMLSchema.xsd">
+	<xsd:element name="Items">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name="Name" type="xsd:string"></xsd:element>
+				<xsd:element name="Category">
+					<xsd:complexType>
+						<xsd:choice>
+							<xsd:element name="Veg">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:enumeration value="Chips"/>
+										<xsd:enumeration value="Biscuit"/>
+										<xsd:enumeration value="Salad"/>
+										<xsd:enumeration value="Bread"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="NonVeg"></xsd:element>
+						</xsd:choice>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="CompanyInfo">
+					<xsd:complexType>
+						<xsd:all>
+							<xsd:element name="Phone" type="xsd:integer"/>
+							<xsd:element name="Address" type="xsd:string"/>
+						</xsd:all>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

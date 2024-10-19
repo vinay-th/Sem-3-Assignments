@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xsd:element name="Employee">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="EmpNum" type="xsd:integer"></xsd:element>
+				<xsd:element name="Name" type="xsd:string"></xsd:element>
+				<xsd:element name="Designation" type="xsd:string"></xsd:element>
+				<xsd:element name="Salary" type="xsd:string"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,35 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema file:/C:/Program%20Files%20(x86)/Exchanger%20XML%20Editor%203.3/types/XML%20Schema/Validation/XMLSchema.xsd">
+	<xsd:element name="Student">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="StudentName"/>
+				<xsd:element name="PersonalInfo">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Address" type="xsd:string"/>
+							<xsd:element name="Gender" type="xsd:string"/>
+							<xsd:element name="MobileNo">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:pattern value="\d{10}">
+										</xsd:pattern>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Email" type="xsd:string"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Result">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Total"></xsd:element>
+							<xsd:element name="Percentage"></xsd:element>
+							<xsd:element name="Grade"></xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

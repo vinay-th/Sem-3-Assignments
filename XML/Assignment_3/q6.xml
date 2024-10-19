@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employee>
+    <EmpNum>12345</EmpNum>
+    <Name>John Doe</Name>
+    <Designation>Software Engineer</Designation>
+    <Salary>60000</Salary>
+</Employee>

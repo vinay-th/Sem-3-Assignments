@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE Email [
+    <!ELEMENT Email (Message)>
+    <!ELEMENT Message (#PCDATA)>
+    <!ATTLIST Message from CDATA #REQUIRED>
+    <!ATTLIST Message to CDATA #REQUIRED>
+    <!ATTLIST Message subject CDATA #REQUIRED>
+]>
+<Email>
+    <Message from="sarthak" to="vansh" subject="helloo">
+        Thoda mota ho hogya hai!!🌚
+    </Message>
+</Email>

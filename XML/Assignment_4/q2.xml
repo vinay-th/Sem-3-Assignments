@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<OrderDetails>
+	<OrderNo>01</OrderNo>
+	<Orderate>2500</Orderate>
+	<OrderAmount>3</OrderAmount>
+	<ItemPrice>3000</ItemPrice>
+	<ItemName>1025</ItemName>
+	<Quantity>3</Quantity>
+</OrderDetails>

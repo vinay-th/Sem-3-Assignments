@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Books>
+	<Book title="Tech Innovations">
+	    <Author>Rohit</Author>
+	    <Year>1990</Year>
+	    <Publisher>Future Press</Publisher>
+	</Book>
+	
+	<Book title="The Art of Cooking">
+	    <Author>Meera</Author>
+	    <Year>1992</Year>
+	    <Publisher>Gourmet Books</Publisher>
+	</Book>
+	
+	<Book title="Travel Diaries">
+	    <Author>Rahul</Author>
+	    <Year>1994</Year>
+	    <Publisher>Wanderlust Publications</Publisher>
+	</Book>
+	
+	<Book title="Mystery Unveiled">
+	    <Author>Priya</Author>
+	    <Year>1995</Year>
+	    <Publisher>Thriller House</Publisher>
+	</Book>
+	
+	<Book title="Juice">
+	    <Author>Sarthak</Author>
+	    <Year>1999</Year>
+	    <Publisher>MBBS walla</Publisher>
+	</Book>
+	
+	<Book title="Science Simplified">
+	    <Author>Aarav</Author>
+	    <Year>2000</Year>
+	    <Publisher>Knowledge Hub</Publisher>
+	</Book>
+	
+	<Book title="Fantasy Realms">
+	    <Author>Sonia</Author>
+	    <Year>2012</Year>
+	    <Publisher>Mythos Books</Publisher>
+	</Book>
+	
+	<Book title="Fitness Journey">
+	    <Author>Akash</Author>
+	    <Year>2016</Year>
+	    <Publisher>Health Press</Publisher>
+	</Book>
+	
+	<Book title="The Coding Chronicles">
+	    <Author>Vikram</Author>
+	    <Year>2019</Year>
+	    <Publisher>Tech Savvy Press</Publisher>
+	</Book>
+	
+	<Book title="Mindfulness Practices">
+	    <Author>Riya</Author>
+	    <Year>2023</Year>
+	    <Publisher>Wellbeing Books</Publisher>
+	</Book>
+
+</Books>
