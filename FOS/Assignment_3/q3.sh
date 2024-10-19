@@ -42,5 +42,3 @@ echo
 echo "Sorting student.txt by marks in reverse order:"
 sort -t '|' -k4 -nr student.txt
 echo
-
-rm emp.txt student.txt
