@@ -1,0 +1,6 @@
+1|Akash|Mumbai|85
+4|Megha|Chennai|88
+2|Nisha|Delhi|78
+3|Ravi|Bangalore|90
+6|Sneha|Kolkata|95
+5|Vikas|Pune|76
