@@ -1,0 +1,7 @@
+No Item_Name Quantity Price
+1 Pen 45 $3.45
+2 Pencil 25 $2.45
+3 Eraser 5 $4.45
+4 Pen 25 $3.45
+5 Stapler 15 $1.45
+6 Pen 30 $3.45
