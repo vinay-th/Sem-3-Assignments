@@ -21,6 +21,7 @@ int main() {
         }
       }
     }
+    cout << "No duplicate elements found";
   } catch (const runtime_error &e) {
     cout << e.what() << '\n';
   }
