@@ -24,7 +24,7 @@ int main() {
     cout << "Enter the salary of the employee: ";
     cin >> emp[i].salary;
   }
-  for (int i; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     emp[i].display();
     cout << "\n";
   }
