@@ -16,6 +16,7 @@ int main() {
   cout << "Last Name: " << lname << "\n";
 
   string fullName = fname + " " + lname;
+  //   string fullName = fname.append(lname);
   cout << "Full Name: " << fullName << "\n";
 
   cout << "\n";
