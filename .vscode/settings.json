@@ -8,6 +8,7 @@
     "iostream": "cpp",
     "cmath": "cpp",
     "ostream": "cpp",
-    "*.tcc": "cpp"
+    "*.tcc": "cpp",
+    "exception": "cpp"
   }
 }
