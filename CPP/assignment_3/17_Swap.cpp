@@ -15,7 +15,8 @@ int main() {
   cout << "Enter the second string: ";
   getline(cin, str2);
 
-  swapStr(str1, str2);
+  // swapStr(str1, str2);
+  str1.swap(str2);
 
   cout << "The first string is: " << str1 << endl;
   cout << "The second string is: " << str2 << endl;
