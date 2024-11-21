@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<employees>
+ <employee>
+ <name>John Doe</name>
+ <department>Sales</department>
+ <salary>55000</salary>
+ <joining-year>2015</joining-year>
+ </employee>
+ <employee>
+ <name>Jane Smith</name>
+ <department>IT</department>
+ <salary>75000</salary>
+ <joining-year>2018</joining-year>
+ </employee>
+ <employee>
+ <name>Emily Johnson</name>
+ <department>HR</department>
+ <salary>60000</salary>
+ <joining-year>2020</joining-year>
+ </employee>
+ <employee>
+ <name>Michael Brown</name>
+ <department>IT</department>
+ <salary>72000</salary>
+ <joining-year>2010</joining-year>
+ </employee>
+ <employee>
+ <name>Laura Davis</name>
+ <department>Finance</department>
+ <salary>50000</salary>
+ <joining-year>2022</joining-year>
+ </employee>
+</employees>

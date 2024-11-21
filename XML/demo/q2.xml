@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Student>
+	<RNo>A01</RNo>
+	<Name>Vansh</Name>
+	<Subject>FOS</Subject>
+	<Subject>XML</Subject>
+	<BirthYear>2020</BirthYear>
+	<Marks>89</Marks>
+</Student>

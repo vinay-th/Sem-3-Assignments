@@ -8,6 +8,7 @@ int main() {
   getline(cin, str1);
 
   str2 = str1;
+  // str2.copy(&str1[0], str1.length(), 0);
 
   cout << "The copied string is : " << str2 << endl;
 
