@@ -3,6 +3,5 @@
 touch file1.txt file2.txt
 mkdir -p compressed
 
-gzip file1.txt file2.txt
-mv file1.txt.gz compressed
-mv file2.txt.gz compressed
+gzip -c file1.txt >compressed/file1.txt.gz
+gzip -c file2.txt >compressed/file2.txt.gz

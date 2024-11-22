@@ -2,6 +2,7 @@
 # 11. Write a shell script that uncompresses the multiple files in new folder ,keeping the original files at their place.
 mkdir -p uncompressed
 
-gunzip file1.gz file2.gz
-mv file1.txt uncompressed
-mv file2.txt uncompressed
+cd compressed/
+
+gunzip -c file1.txt.gz >../uncompressed/file1.txt
+gunzip -c file2.txt.gz >../uncompressed/file2.txt
